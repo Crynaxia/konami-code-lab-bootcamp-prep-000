@@ -26,6 +26,7 @@ function init(){
         
      if (index === codes.length) {
        console.log("hurray!");
+       // made it console.log() since alert() did not work in the test envirement.
       index = 0;
     }
   });
